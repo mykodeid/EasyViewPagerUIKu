@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyViewPagerUIKu</string>
+    <string name="hello_world">Hello world!</string>
+	
+	<!-- penambahan script -->
+    <string name="judul_halaman1">Judul 1</string>
+	<string name="judul_halaman2">Judul 2</string>
+	<string name="judul_halaman3">Judul 3</string>
+	<!--
+	<string name="judul_halaman4">Judul 4</string>
+	-->
+</resources>

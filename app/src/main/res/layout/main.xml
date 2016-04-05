@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+	<id.mykode.easyviewpagerui.EasyViewpagerUIKu android:id="@+id/id_viewpagerku" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v4.view.PagerTabStrip android:textColor="#ffffffff" android:id="@+id/id_judul" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="top" android:background="#90C604BF" />
+        <LinearLayout android:id="@+id/id_halaman1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#26C445">
+            <!-- isi halaman 1 -->
+			<TextView android:text="SATU" android:textColor="#ffffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" />
+			<!-- isi halaman 1 -->	
+        </LinearLayout>
+        <LinearLayout android:id="@+id/id_halaman2" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#CF7209">
+            <!-- isi halaman 2 -->
+			<TextView android:text="DUA" android:textColor="#ffffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" />
+			<!-- isi halaman 2 -->	
+        </LinearLayout>
+        <LinearLayout android:id="@+id/id_halaman3" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#3347FF">
+            <!-- isi halaman 3 -->
+			<TextView android:text="TIGA" android:textColor="#ffffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" />	
+			<!-- isi halaman 3 -->	
+        </LinearLayout>
+		
+		<!--
+		    <LinearLayout android:id="@+id/id_halaman4" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#3347FF">
+		      <TextView android:text="EMPAT" android:textColor="#ffffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </LinearLayout>
+		-->
+	</id.mykode.easyviewpagerui.EasyViewpagerUIKu>
+</LinearLayout>
